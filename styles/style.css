@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+/* RESET */
+*{
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Establecer el tamaño y la fuente de los encabezados */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0.5em 0;
+}
+
+/* HEADINGS */
+h1 {
+  color: rgb(95, 95, 43);
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(95, 95, 43);
+  font-size: 2.5rem;
+  display: block;
+  clear:both;
+}
+
+h3 {
+  color: rgb(95, 95, 43);
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+
+
+/* NAVIGATION */
+nav {
+  background-color: lightgray;
+  padding: 10px 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+nav ul li a:hover{
+  font-weight: bold;
+  color: rgb(50,50,50);
+}
+
+nav img {
+  max-width: 1.8rem;
+}
+
+/* LAYOUT */
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-div .izquierdo {
+  margin-top: 1.5rem;
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  background-color: rgb(220, 220, 220);
+  padding: 5px;
+}
+
+.main-div .derecho {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  background-color: rgb(180,180,180);
+  padding: 5px;
+}
+
+/* TABLE */
+table {
+  width: 97%;
+  margin: 2rem 0.8rem 0.2rem 0.8rem;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+table tr th {
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+table tr td {
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.selected-item-data .title{
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.selected-item-data .data{
+  margin-left: 0.5rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.selected-item-data {
+  display: block;
+}
