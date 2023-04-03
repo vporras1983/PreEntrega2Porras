@@ -192,6 +192,8 @@ table tr td {
   min-width: 00px;
   flex: 1;
   margin: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 @media (min-width: 576px) {
