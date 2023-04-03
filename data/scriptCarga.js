@@ -75,6 +75,24 @@ function cargarData() {
       rfid: "369386",
       ubicacion: "WA42",
     },
+    {
+      articulo: "Generador 5000kw",
+      cantidad: "10",
+      rfid: "8545802",
+      ubicacion: "KI720",
+    },
+    {
+      articulo: "Vestido de novia verde",
+      cantidad: "10",
+      rfid: "5465420",
+      ubicacion: "KI402",
+    },
+    {
+      articulo: "Traje negro niño",
+      cantidad: "6",
+      rfid: "3693806",
+      ubicacion: "WA420",
+    },
   ];
 
   const tablaEntregas = document.querySelector("#tablaEntregas tbody");

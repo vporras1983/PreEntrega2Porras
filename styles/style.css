@@ -80,7 +80,7 @@ nav img {
 .main-div {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: top;
   width: 100%;
   height: 100%;
 }
@@ -132,12 +132,12 @@ table tr td {
   margin-left: 0.5rem;
 }
 
+.selected-item-data {
+  display: block;
+}
+
 .table-responsive {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-}
-
-.selected-item-data {
-  display: block;
 }
