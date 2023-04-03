@@ -83,9 +83,9 @@ function cargarData() {
       const fila = document.createElement("tr");
       fila.innerHTML = `
           <td>${entrega.articulo}</td>
-          <td>${entrega.cantidad}</td>
-          <td>${entrega.rfid}</td>
-          <td>${entrega.ubicacion}</td>
+          <td class="text-right">${entrega.cantidad}</td>
+          <td class="text-right">${entrega.rfid}</td>
+          <td class="text-right">${entrega.ubicacion}</td>
         `;
       tablaEntregas.appendChild(fila);
     });
@@ -99,9 +99,9 @@ function cargarData() {
       const fila = document.createElement("tr");
       fila.innerHTML = `
           <td>${entrega.articulo}</td>
-          <td>${entrega.cantidad}</td>
-          <td>${entrega.rfid}</td>
-          <td>${entrega.ubicacion}</td>
+          <td class="text-right">${entrega.cantidad}</td>
+          <td class="text-right">${entrega.rfid}</td>
+          <td class="text-right">${entrega.ubicacion}</td>
         `;
       tablaDevoluciones.appendChild(fila);
     });
