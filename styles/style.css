@@ -141,6 +141,12 @@ table tr td {
   padding: 0.2rem;
 }
 
+table thead {
+  color: rgb(210, 210, 177);
+  background-color: rgb(95, 95, 43);
+  border-color:  rgb(95, 95, 43);
+}
+
 .selected-item-data .title{
   font-weight: bold;
   margin-left: 0.5rem;
@@ -183,39 +189,6 @@ table tr td {
 }
 
 
-/* 
-
-.card-reporte {
-  border-radius: 5%;
-  margin: 3%;
-  padding: 5px;
-  text-align: center;
-  min-width: 250px;
-  max-width: 600px;
-  width: 100%;
-}
-
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card-container {
-  min-width: 00px;
-  flex: 1;
-  margin: 5px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-} */
-
-/* */
 @media (max-width: 700px) {
   .card {
     margin-left: 50%;
