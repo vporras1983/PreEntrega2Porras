@@ -16,30 +16,30 @@ h1, h2, h3, h4, h5, h6 {
 
 /* HEADINGS */
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   display: block;
   clear:both;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h5 {
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 0.7rem;
 }
 
 /* BOTONES */
@@ -215,26 +215,10 @@ table tr td {
   padding-bottom: 0;
 } */
 
-/* @media (min-width: 576px) {
+/* */
+@media (max-width: 700px) {
   .card {
-    width: 48%;
+    margin-left: 50%;
+    margin-right: 50%;
   }
 }
-
-@media (min-width: 768px) {
-  .card {
-    width: 31%;
-  }
-}
-
-@media (min-width: 992px) {
-  .card {
-    width: 23%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card {
-    width: 19%;
-  }
-} */
